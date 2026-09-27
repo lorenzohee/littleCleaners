@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "python3 -m http.server 4173",
-    "build": "node -e \"console.log('静态网页无需构建')\""
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp -R src dist/src && cp -R public dist/public"
   },
   "dependencies": {}
 }
