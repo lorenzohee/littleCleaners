@@ -1,0 +1,10 @@
+{
+  "name": "little-cleaner",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "build": "node -e \"console.log('静态网页无需构建')\""
+  },
+  "dependencies": {}
+}
